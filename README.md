@@ -16,3 +16,11 @@ This project predicts customer churn using the Telco Customer Churn dataset. It 
    ```bash
    pip install pandas numpy scikit-learn xgboost fastapi uvicorn joblib matplotlib seaborn
    ```
+2. **Start the Prediction API**
+   ```bash
+   uvicorn app:app --reload
+   ```
+3. **Test the Prediction**
+   The API comes with an interactive user interface (Swagger UI).
+
+   Open your browser and go to: http://127.0.0.1:8000/docs
